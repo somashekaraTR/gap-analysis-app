@@ -38,15 +38,13 @@ Open the URL shown in the terminal (usually `http://localhost:5173`).
 
 ## AI Recommendations Setup
 
-The "Generate AI Recommendations" button calls the Anthropic API directly and requires a backend to hold the API key securely — it will not work out of the box in a purely client-side deployment. See [Anthropic's API documentation](https://docs.claude.com) for setting up a simple proxy server.
+The "Generate AI Recommendations" button calls the Anthropic API directly and requires a backend to hold the API key securely — it will not work out of the box in a purely client-side deployment.
 
 ## Tech Stack
 
 - [React](https://react.dev/) + [Vite](https://vite.dev/)
 - [Recharts](https://recharts.org/) for data visualization
 - [Lucide](https://lucide.dev/) for icons
-- [Claude](https://www.anthropic.com/) for AI-generated recommendations
-
 ## License
 
 This project is for personal/portfolio use.
